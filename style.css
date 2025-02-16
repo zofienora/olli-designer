@@ -35,8 +35,9 @@ li {
 .container {
     margin: 0 auto;
     width: 80%;
-    border: 2px solid red;
-}
+    max-width: 1200px;
+/*     border: 2px solid red;
+ */}
 
 .flex {
     display: flex;
@@ -111,3 +112,17 @@ li {
 
 
 /* ----sdfasg------------------------------------ */
+
+.project-item {
+    width: 100%; /* Full width of its parent */
+    aspect-ratio: 3 / 2; /* Maintains the aspect ratio */
+    overflow: hidden;
+    padding-bottom: 1em;
+}
+
+.project-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Covers the div without distortion */
+    border-radius: 10px;
+}
