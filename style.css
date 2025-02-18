@@ -94,6 +94,7 @@ li {
     justify-content: center;
     gap: 10px;
     font-size: 0.75rem;
+    padding-bottom: 10em;
 }
 
 .button {
@@ -106,6 +107,10 @@ li {
 @media screen and (max-width:450px) {
     .buttons__main {
         display: none;
+    }
+
+    .text__main {
+        padding-bottom: 8em;
     }
 }
 
@@ -155,3 +160,44 @@ li {
 }
 
 /* ----Hero------------------------------------ */
+
+.hero {
+    text-align: center;
+    padding: 10em 0;
+    font-weight:100;
+}
+
+.hero h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.hero h3 {
+    padding: 0px;
+    margin: 0;
+    font-size: 2rem;
+    color: #7f7f7f;
+}
+
+/* ----Hero------------------------------------ */
+
+.footer {
+    display: flex;
+    font-size: .75rem;
+    justify-content: space-between;
+    color: #7f7f7f;
+}
+
+.footer p {
+    margin: 0;
+    padding-bottom: 2em;
+}
+
+.footer a {
+    color: #7f7f7f;
+}
+
+.link-item + .link-item {
+    padding-left: 2em;
+}
